@@ -1,0 +1,252 @@
+<div class="col-md-12 contact-info">
+      <div class="row">
+        
+        <!-- Call Now -->
+        
+       <div class="col-md-1">
+          <span>
+            <fa-icon [icon]="['fa', 'phone']"  title="Call Now" ></fa-icon>
+          </span>
+        </div>          
+        <div class="call-now col-md-2"><h5>Call Now</h5>
+          <p>9370004361<br>
+             8793300671</p>
+        </div>
+        
+        <!-- Opening Hours -->
+        <div class="col-md-1">
+          <span>
+            <fa-icon [icon]="['fa', 'clock']" title="Opening Hours"></fa-icon>
+          </span>
+        </div>  
+          
+        <div class="opening-hours col-md-2"><h5>Opening Hours</h5>
+          <p>Mon - Fri: 7:00 - 17:00 <br>
+            Sat - Sun: 10:00 - 17:00</p>
+        </div>
+  
+        <!-- Location -->
+        <div class="col-md-1 location-wrap">
+          <span>
+            <fa-icon [icon]="['fa', 'map-marker-alt']" title="Location"></fa-icon>
+          </span>
+        </div> 
+        <div class="location col-md-2 location-wrap"><h5>Location</h5>
+          <p>Plot No: 06, Apni Bakery  <br>
+            Jalgaon Maharashtra</p>
+        </div>
+  
+        <!-- Mail Info -->
+        <div class="col-md-1 mail-info-wrap">
+          <span>
+            <fa-icon [icon]="['fa', 'envelope']" title="Mail Info"></fa-icon>
+          </span>
+        </div> 
+        <div class="mail-info col-md-2 mail-info-wrap"><h5>Mail</h5>
+          <p>contact@apnibakery.com</p>
+        </div>
+    
+      </div>
+    </div>  
+
+    --------------------------------------------------------------------------------------
+
+    <!--  <div class="centered col-md-12">
+      <div class="phone-icon col-md-6">
+        <span>
+          <fa-icon [icon]="['fa', 'phone']"  title="Call Now" ></fa-icon>
+        </span>
+      </div>
+      <div class="call-now col-md-6"><h5>Call Now</h5>
+        <p>9370004361<br>
+           8793300671</p>
+      </div>
+    </div>
+  -->  
+
+
+  ---------------------------------- product -----------------------------------------------
+  <section id="product">
+    <div class="product-background">
+        <!-- Container Start -->
+        <div class="container">
+          <div class="row" id="product-row">
+           
+            <!-- Card deck 1 ----------------------------------------- -->
+            <h5 class="product-title">Our Products</h5>
+            <div class="card-deck">
+
+                <div class="col-xs-12 col-sm-6 col-md-3 card-1">
+                  <!-- Card 1 Start -->
+                  <div class="card product-card">
+
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="../assets/img/product/blackforestcake.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                      <!--Title-->
+                      <h4 class="card-title">Blackforest Cake</h4>
+                    </div>
+                  </div>
+                  <!-- Card 1 END -->
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 card-2">
+                <!-- Card 2 Start -->
+                <div class="card mb-4 product-card">
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img class="card-img-top" src="../assets/img/product/cake.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                      <!--Title-->
+                      <h4 class="card-title">Whiteforest Cake</h4>
+                    </div>
+                  </div>
+                  <!-- Card 2 END -->
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3 card-3">
+                  <!-- Card 3 Start--> 
+                  <div class="card mb-4 product-card">
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="../assets/img/product/chocolate-muffin.jpg" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      <!--Card content-->
+                      <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Chocolate Muffin</h4>
+                      </div>
+                    </div>
+                    <!-- Card 3 END -->
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-3 card-4">
+                    <!-- Card 4 Start-->
+                    <div class="card mb-4 product-card">
+                      <!--Card image-->
+                      <div class="view overlay">
+                        <img class="card-img-top twist-khari" src="../assets/img/product/twist-khari.jpg" alt="Card image cap">
+                          <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                          </a>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body">
+                          <!--Title-->
+                          <h4 class="card-title">Twist Khari</h4>
+                        </div>
+                      </div>
+                      <!-- Card 4 END -->
+                    </div>
+        
+
+
+            </div>
+            <!-- Card Deck 1 END ------------------------------------- -->
+
+            <!-- Card deck 2 ----------------------------------------- -->
+            <div class="card-deck row ">
+
+              <div class="col-xs-12 col-sm-6 col-md-3 card-5">
+                <!-- Card 1 Start -->
+                <div class="card product-card">
+
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img class="card-img-top" src="../assets/img/product/nankhatai-2.JPG" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                  <!--Card content-->
+                  <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Dryfruit Nankhatai</h4>
+                  </div>
+                </div>
+                <!-- Card 1 END -->
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 card-6">
+              <!-- Card 2 Start -->
+              <div class="card mb-4 product-card">
+                <!--Card image-->
+                <div class="view overlay">
+                  <img class="card-img-top roat" src="../assets/img/product/roat.jpg" alt="Card image cap">
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                  <!--Card content-->
+                  <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Almond Roat</h4>
+                  </div>
+                </div>
+                <!-- Card 2 END -->
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 card-7">
+                <!-- Card 3 Start-->
+                <div class="card mb-4 product-card">
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img class="card-img-top" src="../assets/img/product/pav-ladi.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                      <!--Title-->
+                      <h4 class="card-title">Pav Ladi</h4>
+                    </div>
+                  </div>
+                  <!-- Card 3 END -->
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-3 card-8">
+                  <!-- Card 4 Start-->
+                  <div class="card mb-4 product-card">
+                    <!--Card image-->
+                    <div class="view overlay">
+                      <img class="card-img-top" src="../assets/img/product/mawa-toast.jpg" alt="Card image cap">
+                        <a href="#!">
+                          <div class="mask rgba-white-slight"></div>
+                        </a>
+                      </div>
+                      <!--Card content-->
+                      <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Mawa Toast</h4>
+                      </div>
+                    </div>
+                    <!-- Card 4 END -->
+                  </div>
+
+
+
+            </div>
+          <!-- Card Deck 2 END -------------------------------------- -->
+        </div>  
+      </div>
+      <!-- Container END -->
+    </div>
+    
+  </section>
+
+  ------------------------------------------------------------------------------------------------
